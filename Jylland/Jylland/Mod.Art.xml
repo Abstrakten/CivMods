@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameArtSpecification>
 	<id>
-		<name text="Example - New Civilization and Leader"/>
-		<id text="e4b42931-55ff-4718-8312-511b9a12e2e5"/>
+		<name text="Jylland Civ"/>
+		<id text="6b5ced8d-b047-4a74-917b-e678e9b193dd"/>
 	</id>
 	<artConsumers>
 		<Element>
@@ -319,7 +319,6 @@
 		<Element>
 			<consumerName text="LeaderFallback"/>
 			<relativeArtDefPaths>
-				<Element text="FallbackLeaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="LeaderFallback"/>
@@ -456,12 +455,11 @@
 		<Element>
 			<libraryName text="LeaderFallback"/>
 			<relativePackagePaths>
-				<Element text="LeaderFallbacks"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
 			<libraryName text="LeaderLighting"/>
-			<relativePackagePaths>		
+			<relativePackagePaths>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -547,7 +545,6 @@
 		<Element>
 			<libraryName text="UITexture"/>
 			<relativePackagePaths>
-				<Element text="UILeaders"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
